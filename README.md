@@ -9,7 +9,7 @@ This is a repository describing how swift lint warnings fail to show up when pip
 4. Run `fastlane scan` in the same repository, see that warnings are not shown in the output. 
 5. Run the underlying command that fastlane invokes without piping to xcpretty and observe the 7 warnings being thrown `xcodebuild -scheme SwiftlintXcpretty -project ./SwiftlintXcpretty.xcodeproj build test`
 6. Conclusion: xcpretty(0.2.4) might be filtering out the output of swiftlint.
-`fastlane 2.30.1,
+```fastlane 2.30.1,
 swiftlint version 0.18.1
 [10:33:24]: ▸ Loading...
 [10:33:24]: ▸ Building SwiftlintXcpretty/SwiftlintXcpretty [Debug]
@@ -45,4 +45,4 @@ swiftlint version 0.18.1
 | Number of tests    | 3 |
 | Number of failures | 0 |
 +--------------------+---+
-`
+```
