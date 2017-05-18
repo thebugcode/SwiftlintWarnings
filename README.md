@@ -5,10 +5,10 @@ This is a repository describing how swift lint warnings fail to show up when pip
 #Walkthrough:
 1. Clone the repository, go into it's root directory.
 2. Compile the app with Xcode observe 7 warnings.
-3. (Optional) run swift lint in the same directory, observe 7 warnings as well.
+3. (Optional) run `swiftlint` in the same directory, observe 7 warnings as well.
 4. Run `fastlane scan` in the same repository, see that warnings are not shown in the output. 
 5. Run the underlying command that fastlane invokes without piping to xcpretty and observe the 7 warnings being thrown `xcodebuild -scheme SwiftlintXcpretty -project ./SwiftlintXcpretty.xcodeproj build test`
-6. Conclusion: xcpretty(0.2.4) might be filtering out the output of swiftlint.
+6. Conclusion: xcpretty(0.2.4) might be filtering out the warnings from swiftlint.
 fastlane 2.30.1,
 swiftlint version 0.18.1
 ```
