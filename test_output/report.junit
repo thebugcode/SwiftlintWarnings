@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testsuites name='SwiftlintXcprettyUITests.xctest' tests='3' failures='0'>
+  <testsuite name='SwiftlintXcprettyTests.SwiftlintXcprettyTests' tests='2' failures='0'>
+    <testcase classname='SwiftlintXcprettyTests.SwiftlintXcprettyTests' name='testExample' time='0.001'/>
+    <testcase classname='SwiftlintXcprettyTests.SwiftlintXcprettyTests' name='testPerformanceExample' time='0.312'/>
+  </testsuite>
+  <testsuite name='SwiftlintXcprettyUITests.SwiftlintXcprettyUITests' tests='1' failures='0'>
+    <testcase classname='SwiftlintXcprettyUITests.SwiftlintXcprettyUITests' name='testExample' time='6.202'/>
+  </testsuite>
+</testsuites>

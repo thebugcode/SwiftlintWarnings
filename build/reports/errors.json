@@ -1,0 +1,32 @@
+{
+  "warnings": [
+
+  ],
+  "ld_warnings": [
+
+  ],
+  "compile_warnings": [
+
+  ],
+  "errors": [
+
+  ],
+  "compile_errors": [
+
+  ],
+  "file_missing_errors": [
+
+  ],
+  "undefined_symbols_errors": [
+
+  ],
+  "duplicate_symbols_errors": [
+
+  ],
+  "tests_failures": {
+  },
+  "tests_summary_messages": [
+    "\t Executed 2 tests, with 0 failures (0 unexpected) in 0.332 (0.335) seconds\n",
+    "\t Executed 1 test, with 0 failures (0 unexpected) in 6.387 (6.390) seconds\n"
+  ]
+}

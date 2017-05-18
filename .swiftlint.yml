@@ -1,0 +1,33 @@
+# SwiftLint Configuration file
+# rule configuration
+
+disabled_rules:
+    - trailing_whitespace
+    - type_name
+    - variable_name
+    - function_parameter_count
+    - control_statement #conditional statement in parentheses
+
+file_length:
+    - 600
+
+line_length:
+    - 300 # warning
+
+large_tuple:
+  - 3 # warning
+
+type_body_length:
+  - 450 # warning
+  - 700 # error
+
+force_cast: warning
+force_try: warning
+shorthand_operator: warning
+
+# some rules are only opt-in (disabled per default)
+# adding them below, enables them
+opt_in_rules:
+  - empty_count
+    #  - missing_docs   <= REMINDER: should be readded, when most warnings are fixed
+    #  - force_unwrapping <= REMINDER: should be readded, when most warnings are fixed
